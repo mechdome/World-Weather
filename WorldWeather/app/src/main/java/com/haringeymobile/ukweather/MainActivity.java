@@ -33,6 +33,7 @@ import com.haringeymobile.ukweather.weather.WeatherInfoActivity;
 import com.haringeymobile.ukweather.weather.WeatherInfoFragment;
 import com.haringeymobile.ukweather.weather.WeatherInfoType;
 import com.haringeymobile.ukweather.weather.WorkerFragmentToRetrieveJsonString;
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
 
 import java.net.URL;
 
@@ -276,6 +277,9 @@ public class MainActivity extends RefreshingActivity implements
             goToPlayStore();
         } else if (id == R.id.mi_about) {
             Intent aboutIntent = new Intent(this, AboutActivity.class);
+            startActivityWithTransitionAnimation(aboutIntent);
+        } else if (id == R.id.about_mechdome) {
+            Intent aboutIntent = new Intent(this, AboutMechDomeActivity.class);
             startActivityWithTransitionAnimation(aboutIntent);
         }
         return super.onOptionsItemSelected(item);

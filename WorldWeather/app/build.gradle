@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.haringeymobile.ukweather"
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 25
         versionCode 27
         versionName "1.2.2"
@@ -34,4 +34,5 @@ dependencies {
     //noinspection GradleDependency
     compile 'com.google.code.gson:gson:1.7.1'
     compile project(':drag-sort-listview')
+    compile 'com.mechdome:MechDome-About:+'
 }

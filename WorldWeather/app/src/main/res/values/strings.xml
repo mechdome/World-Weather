@@ -64,6 +64,8 @@
     <string name="mi_rate_application_title">Rate application</string>
     <string name="mi_about_program_title">About</string>
 
+    <string name="mi_about_mechdome">About Mechdome</string>
+
     <string name="sunrise_time">"Sunrise: "</string>
     <string name="sunset_time">"Sunset: "</string>
 

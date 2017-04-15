@@ -39,6 +39,11 @@
                 android:icon="@drawable/ic_action_book"
                 android:title="@string/mi_about_program_title"
                 weather:showAsAction="never"/>
+
+            <item
+                android:id="@+id/about_mechdome"
+                android:title="@string/mi_about_mechdome"
+                weather:showAsAction="never"/>
         </menu>
     </item>
 

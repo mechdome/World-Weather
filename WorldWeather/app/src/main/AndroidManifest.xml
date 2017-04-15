@@ -76,6 +76,8 @@
         <service
             android:name="com.haringeymobile.ukweather.database.GeneralDatabaseService"
             android:exported="false"/>
+
+        <meta-data android:name="md_remove_ads" android:value="com.haringeymobile.ukweather.MechDomeAd" />
     </application>
 
 </manifest>
